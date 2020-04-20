@@ -1,2 +1,4 @@
-# Ceaser Cipher with BruteForce Attack
-This is a python script to Encode a string to Ceaser Cipher , Decode with a particular key and Bruteforce attack on the cipher text to obtain your plain text. 
+# DRAGOMAN - THE DECODER
+This DRAGOMAN is a Cryptographic tool with multiple decoding scripts that can be used to crack Capture The Flag contests. 
+
+DRAGOMAN is under process and will be completedsoon and will be there for you !!<<<<>/.
