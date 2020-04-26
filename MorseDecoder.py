@@ -4,7 +4,7 @@
 # In[6]:
 
 
-MORSE_CODE_DICT = { 'A':'.-', 'B':'-...',
+MORSE_CODE = { 'A':'.-', 'B':'-...',
    'C':'-.-.', 'D':'-..', 'E':'.',
    'F':'..-.', 'G':'--.', 'H':'....',
    'I':'..', 'J':'.---', 'K':'-.-',
@@ -24,7 +24,7 @@ def encryption(message):
    my_cipher = ''
    for myletter in message:
       if myletter != ' ':
-         my_cipher += MORSE_CODE_DICT[myletter] + ' '
+         my_cipher += MORSE_CODE[myletter] + ' '
       else:
          my_cipher += ' '
       return my_cipher
@@ -42,7 +42,7 @@ def decryption(message):
          if i == 2 :
             decipher += ' '
          else:
-            decipher += list(MORSE_CODE_DICT.keys())[list(MORSE_CODE_DICT
+            decipher += list(MORSE_CODE.keys())[list(MORSE_CODE
             .values()).index(mycitext)]
             mycitext = ''
    return decipher
