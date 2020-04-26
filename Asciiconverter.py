@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-import os
-import sys
-import re
-def main():
-    if os.name == 'nt':
-        os.system('cls')
+
     banner = """\u001b[36m
          ___                               _    __       
         / _ \___ ________ ___ _  ___ ___  (_)__/ /__ ____
