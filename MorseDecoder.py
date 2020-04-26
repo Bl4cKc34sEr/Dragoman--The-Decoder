@@ -21,22 +21,22 @@ MORSE_CODE = { 'A':'.-', 'B':'-...',
    '(':'-.--.', ')':'-.--.-'
 }
 def encryption(message):
-   my_cipher = ''
-   for myletter in message:
-      if myletter != ' ':
-         my_cipher += MORSE_CODE[myletter] + ' '
+   cipher_text = ''
+   for mymessage in message:
+      if mymessage != ' ':
+         cipher_text += MORSE_CODE[mymessage] + ' '
       else:
-         my_cipher += ' '
-      return my_cipher
+         cipher_text += ' '
+      return cipher_text
 
 def decryption(message):
    message += ' '
    decipher = ''
    mycitext = ''
-   for myletter in message:
-      if (myletter != ' '):
+   for mymessage in message:
+      if (mymessage != ' '):
          i = 0
-         mycitext += myletter
+         mycitext += mymessage
       else:
          i += 1
          if i == 2 :
@@ -54,3 +54,10 @@ def main():
 
 if __name__ == '__main__':
    main()
+
+
+# In[ ]:
+
+
+
+
