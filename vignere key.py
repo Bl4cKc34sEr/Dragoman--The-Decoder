@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[ ]:
-banner = """\033[91m
+banner = """\u001b[36;1m
  █████▄  ██▀███   ▄▄▄       ▄████  ▒█████    ███▄ ▄███    ▄███    ▓▓▄     █ 
 ▒██  ██▌▓██ ▒ ██▒▒████▄     ██▒ ▀█▒▒██   ██▒ ██▒▀█▀█ █ ▒██   ██ ▄ ██ ▀█   █ 
 ░██   █▌▓██  ▄█ ▒▒██  ▀█▄  ▒██░▄▄▄░▒██░  ██ ▓██    ▓██▒ ██   ▀█▄▓ ██  ▀█ ██▒
@@ -14,9 +14,9 @@ banner = """\033[91m
    ░       ░            ░  ░      ░    ░ ░         ░         ░  ░         ░ 
  ░                                                                         
                            
-                           \033[00m - coded with <3 For CTF's by Shivanshu Sharma\u001b[0m 
+                           \u001b[32;1m - coded with <3 For CTF's by Shivanshu Sharma\u001b[0m 
     """
-print(banner)
+print(banner)  
 
 a = input('Enter cipher text: ')
 b = input('Enter key: ')
