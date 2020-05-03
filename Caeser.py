@@ -45,7 +45,7 @@ print(menu)
 MAX_KEY_SIZE = 26
 def getMode():
     while True:
-        print('Do you wish to Decrypt [D]/ Bruteforce [B] a message?')
+        print('Do you wish to Decrypt with key [D]/ Bruteforce [B] a message?')
         mode = input().lower()
         if mode in ' decrypt d brute b'.split():
             return mode
