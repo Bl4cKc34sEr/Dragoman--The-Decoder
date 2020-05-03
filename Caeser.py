@@ -8,21 +8,49 @@ banner = """\u001b[36;1m
  ░ ▒  ▒   ░▒ ░ ▒░  ▒   ▒▒ ░  ░   ░   ░ ▒ ▒░ ░  ░      ░  ▒   ▒▒ ░░ ░░   ░ ▒░
  ░ ░  ░   ░░   ░   ░   ▒   ░ ░   ░ ░ ░ ░ ▒  ░      ░     ░   ▒      ░   ░ ░ 
    ░       ░            ░  ░      ░    ░ ░         ░         ░  ░         ░ 
- ░                                                                         
-                           
-                           \u001b[32;1m - coded with <3 For CTF's by Shivanshu Sharma\u001b[0m 
-    """
-print(banner)  
+                \u001b[32;1m                        
+                                             --Presented with <3 by Shivanshu Sharma
+\u001b[35   __   __   ___  ___  ___  ___     ___  ___   __  __  ___  ___  ___  
+ / _) (  ) (  _)/ __)(  _)(  ,)   (   \(  _) / _)/  \(   \(  _)(  ,) 
+( (_  /__\  ) _)\__ \ ) _) )  \    ) ) )) _)( (_( () )) ) )) _) )  \ 
+ \__)(_)(_)(___)(___/(___)(_)\_)  (___/(___) \__)\__/(___/(___)(_)\_)
+\u001b[32;1m \u001b[0m    """
+print(banner) 
+menu=""" \u001b[33;1m
+------------------------------------------
+            LIST OF DECODERS             |
+------------------------------------------
+  [+] ASCII CONVERTER      -- Ascii.py   |
+  [+] ATBASH DECODER       -- Atbash.py  |
+  [+] CEASER DECODER       -- Ceaser.py  |
+  [+] BACON DECODER        -- Bacon.py   |
+  [+] BASE32 DECODER       -- Base32.py  |
+  [+] BASE64 DECODER       -- Base64.py  |
+  [+] BASE85 DECODER       -- Base85.py  |
+  [+] DNA DECODER          -- Dna.py     | 
+  [+] MORSE DECODER        -- Morse.py   | 
+  [+] NUMBER SYSTEM        -- Num.py     | 
+        [!] BINARY TO TEXT               | 
+        [!] HEX TO TEXT                  | 
+        [!] OCTAL TO TEXT                |  
+  [+] RAILFENCE DECODER    -- Rail.py    |
+  [+] REVERSE CIPHER       -- Reverse.py |  
+  [+] ROT13 DECODER        -- Rot.py     | 
+  [+] TRANSPOSITION CIPHER -- Trans.py   | 
+  [+] VIGNERE DECODER      -- Vignere.py |
+------------------------------------------s
+\u001b[32;1m""" 
+print(menu)
 
 MAX_KEY_SIZE = 26
 def getMode():
     while True:
-        print('Do you wish to Encrypt / Decrypt / Bruteforce a message?')
+        print('Do you wish to Decrypt [D]/ Bruteforce [B] a message?')
         mode = input().lower()
-        if mode in 'encrypt e decrypt d brute b'.split():
+        if mode in ' decrypt d brute b'.split():
             return mode
         else:
-            print('Enter either "encrypt" or "E" or "decrypt" or "D" "brute" or "B".')
+            print('Enter either "decrypt" or "D" "brute" or "B".')
 def getMessage():
     print('Enter your message:')
     return input()
@@ -65,7 +93,5 @@ if mode[0] != 'b':
 else:
     for key in range(1,MAX_KEY_SIZE + 1):
         print(key, getTranslatedMessage('decrypt',message,key))
-
-
 
 
