@@ -18,7 +18,7 @@ banner = """\u001b[36;1m
 print(banner) 
 menu=""" \u001b[33;1m
 ------------------------------------------
-            ALL DECODERS                 |
+            LIST OF DECODERS             |
 ------------------------------------------
   [+] ASCII CONVERTER      -- Ascii.py   |
   [+] ATBASH DECODER       -- Atbash.py  |
