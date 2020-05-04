@@ -26,7 +26,7 @@ menu=""" \u001b[33;1m
 ------------------------------------------
   [+] ASCII CONVERTER      -- Ascii.py   |
   [+] ATBASH DECODER       -- Atbash.py  |
-  [+] CEASER DECODER       -- Ceaser.py  |
+  [+] CAESER DECODER       -- Caeser.py  |
   [+] BACON DECODER        -- Bacon.py   |
   [+] BASE32 DECODER       -- Base32.py  |
   [+] BASE64 DECODER       -- Base64.py  |
@@ -39,7 +39,7 @@ menu=""" \u001b[33;1m
         [!] OCTAL TO TEXT                |  
   [+] RAILFENCE DECODER    -- Rail.py    |
   [+] REVERSE CIPHER       -- Reverse.py |  
-  [+] ROT13 DECODER        -- Rot.py     | 
+  [+] ROTn DECODER        -- Rot.py     | 
   [+] TRANSPOSITION CIPHER -- Trans.py   | 
   [+] VIGNERE DECODER      -- Vignere.py |
 ------------------------------------------s
