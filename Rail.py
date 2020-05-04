@@ -22,7 +22,7 @@ menu=""" \u001b[33;1m
 ------------------------------------------
   [+] ASCII CONVERTER      -- Ascii.py   |
   [+] ATBASH DECODER       -- Atbash.py  |
-  [+] CEASER DECODER       -- Ceaser.py  |
+  [+] CAESER DECODER       -- Caeser.py  |
   [+] BACON DECODER        -- Bacon.py   |
   [+] BASE32 DECODER       -- Base32.py  |
   [+] BASE64 DECODER       -- Base64.py  |
@@ -35,7 +35,7 @@ menu=""" \u001b[33;1m
         [!] OCTAL TO TEXT                |  
   [+] RAILFENCE DECODER    -- Rail.py    |
   [+] REVERSE CIPHER       -- Reverse.py |  
-  [+] ROT13 DECODER        -- Rot.py     | 
+  [+] ROTn DECODER         -- Rot.py     | 
   [+] TRANSPOSITION CIPHER -- Trans.py   | 
   [+] VIGNERE DECODER      -- Vignere.py |
 ------------------------------------------s
@@ -61,8 +61,7 @@ def encryptRailFence(text, key):
             row += 1
         else: 
             row -= 1
-    # now we can construct the cipher 
-    # using the rail matrix 
+   
     result = [] 
     for i in range(key): 
         for j in range(len(text)): 
