@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
 banner = """\u001b[36;1m
  █████▄  ██▀███   ▄▄▄       ▄████  ▒█████    ███▄ ▄███    ▄███    ▓▓▄     █ 
 ▒██  ██▌▓██ ▒ ██▒▒████▄     ██▒ ▀█▒▒██   ██▒ ██▒▀█▀█ █ ▒██   ██ ▄ ██ ▀█   █ 
@@ -10,12 +8,40 @@ banner = """\u001b[36;1m
  ░ ▒  ▒   ░▒ ░ ▒░  ▒   ▒▒ ░  ░   ░   ░ ▒ ▒░ ░  ░      ░  ▒   ▒▒ ░░ ░░   ░ ▒░
  ░ ░  ░   ░░   ░   ░   ▒   ░ ░   ░ ░ ░ ░ ▒  ░      ░     ░   ▒      ░   ░ ░ 
    ░       ░            ░  ░      ░    ░ ░         ░         ░  ░         ░ 
- ░                                                                         
-                           
-                           \u001b[32;1m - coded with <3 For CTF's by Shivanshu Sharma\u001b[0m 
-    """
-print(banner)  
+                \u001b[32;1m                        
+                                             --Presented with <3 by Shivanshu Sharma
 
+\u001b[35  _  _ ____ ____ ____ ____    ___  ____ ____ ____ ___  ____ ____ 
+|\/| |  | |__/ [__  |___    |  \ |___ |    |  | |  \ |___ |__/ 
+|  | |__| |  \ ___] |___    |__/ |___ |___ |__| |__/ |___ |  \ 
+                                                               
+\u001b[32;1m \u001b[0m    """
+print(banner) 
+menu=""" \u001b[33;1m
+------------------------------------------
+            LIST OF DECODERS             |
+------------------------------------------
+  [+] ASCII CONVERTER      -- Ascii.py   |
+  [+] ATBASH DECODER       -- Atbash.py  |
+  [+] CEASER DECODER       -- Ceaser.py  |
+  [+] BACON DECODER        -- Bacon.py   |
+  [+] BASE32 DECODER       -- Base32.py  |
+  [+] BASE64 DECODER       -- Base64.py  |
+  [+] BASE85 DECODER       -- Base85.py  |
+  [+] DNA DECODER          -- Dna.py     | 
+  [+] MORSE DECODER        -- Morse.py   | 
+  [+] NUMBER SYSTEM        -- Num.py     | 
+        [!] BINARY TO TEXT               | 
+        [!] HEX TO TEXT                  | 
+        [!] OCTAL TO TEXT                |  
+  [+] RAILFENCE DECODER    -- Rail.py    |
+  [+] REVERSE CIPHER       -- Reverse.py |  
+  [+] ROT13 DECODER        -- Rot.py     | 
+  [+] TRANSPOSITION CIPHER -- Trans.py   | 
+  [+] VIGNERE DECODER      -- Vignere.py |
+------------------------------------------s
+\u001b[32;1m""" 
+print(menu)
 def encryptRailFence(text, key): 
 
     rail = [['\n' for i in range(len(text))] 
@@ -36,8 +62,8 @@ def encryptRailFence(text, key):
             row += 1
         else: 
             row -= 1
-	# now we can construct the cipher 
-	# using the rail matrix 
+    # now we can construct the cipher 
+    # using the rail matrix 
     result = [] 
     for i in range(key): 
         for j in range(len(text)): 
@@ -99,20 +125,11 @@ def decryptRailFence(cipher, key):
 
 if __name__ == "__main__": 
   
-    print(encryptRailFence(input("Encode your message to key 2: "),2)) 
+    
     print(decryptRailFence(input("Decode your message to key 2: "),2)) 
-    print(encryptRailFence(input("Encode your message to key 3: "),3)) 
-    print(decryptRailFence(input("Decode your message to key 3: "),3)) 
-    print(encryptRailFence(input("Encode your message to key 4: "),4)) 
+    print(decryptRailFence(input("Decode your message to key 3: "),3))
     print(decryptRailFence(input("Decode your message to key 4: "),4)) 
-    print(encryptRailFence(input("Encode your message to key 5: "),5)) 
-    print(decryptRailFence(input("Decode your message to key 5: "),5))
-    print(encryptRailFence(input("Encode your message to key 6: "),6)) 
-    print(decryptRailFence(input("Decode your message to key 6: "),6)) 
-    print(encryptRailFence(input("Encode your message to key 7: "),7)) 
+    print(decryptRailFence(input("Decode your message to key 5: "),5)) 
+    print(decryptRailFence(input("Decode your message to key 6: "),6))  
     print(decryptRailFence(input("Decode your message to key 7: "),7)) 
 # In[ ]:
-
-
-
-
