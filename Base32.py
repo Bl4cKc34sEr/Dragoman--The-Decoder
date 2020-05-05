@@ -38,7 +38,7 @@ menu=""" \u001b[33;1m
         [!] OCTAL TO TEXT                |  
   [+] RAILFENCE DECODER    -- Rail.py    |
   [+] REVERSE CIPHER       -- Reverse.py |  
-  [+] ROTn DECODER        -- Rot.py     | 
+  [+] ROTn DECODER        -- Rot.py      | 
   [+] TRANSPOSITION CIPHER -- Trans.py   | 
   [+] VIGNERE DECODER      -- Vignere.py |
 ------------------------------------------s
