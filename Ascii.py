@@ -50,7 +50,7 @@ for item in message.split():
     decodedMessage += chr(int(item))   
 
 print ("Decoded Message: ", decodedMessage) 
-message = input("Enter message to encode: ") #encoding text to ascii
+message = input("") #encoding text to ascii
 for ch in message:
     print ("Decoded string (in ASCII):")
     print (ord(ch))
