@@ -6,9 +6,10 @@
 It consumes time when you are just at the edge to get the flag and you have to switch sites to decode it completely. Right.
 So presenting you 𝐃𝐑𝐀𝐆𝐎𝐌𝐀𝐍.❤
 
-𝐃𝐑𝐀𝐆𝐎𝐌𝐀𝐍 is a tool for cracking Cryptography Challenges in Capture The Flag Competitions. 
+𝐃𝐑𝐀𝐆𝐎𝐌𝐀𝐍 is a tool for cracking Cryptography Challenges in Capture The Flag Competitions.
 
 The Scripts included are :
+--------------------------------
 1. ASCII Decoder
 2. Atbash Decoder🎳
 3. Bacon Decoderbas
@@ -25,6 +26,6 @@ The Scripts included are :
 14. Railfence Decoder
 15. Reverse Cipher◀
 16. Vignere Decoder
-17. Transposition Cipher Decoder.
-
+17. Transposition Cipher Decoder
+--------------------------------------
 CONTRIBUTIONS ARE WELCOME😊
