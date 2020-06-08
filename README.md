@@ -1,4 +1,4 @@
-   ![alt text](https://github.com/Bl4cKc34sEr/Dragoman--The-Decoder/blob/master/.github/workflows/d.PNG?raw=true)
+<div align="center>"![alt text](https://github.com/Bl4cKc34sEr/Dragoman--The-Decoder/blob/master/.github/workflows/d.PNG?raw=true)</div>
 # DRAGOMAN - THE DECODER
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
