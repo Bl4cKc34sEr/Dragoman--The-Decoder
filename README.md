@@ -4,7 +4,7 @@
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/) 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) 
-
+[![GitHub followers](https://img.shields.io/github/followers/Bl4cKc34sEr.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/Bl4cKc34sEr?tab=followers)
 
   
 It consumes time when you are just at the edge to get the flag and you have to switch sites to decode it completely. Right.
