@@ -31,14 +31,13 @@ nums = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 enc = None
 dec = None
 
-# Command line options
 usage = "usage: %prog -arg"
 parser = optparse.OptionParser(usage=usage)
 
 parser.add_option('-e', dest="enc", type="string", help="enc plain text to Braille")
 parser.add_option('-d', dest="dec", type="string", help="dec Braille into plain text")
 
-# Parse arguments
+
 (options, args) = parser.parse_args()
 if not options:
     parser.error("incorrect number of arguments")
