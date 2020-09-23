@@ -55,7 +55,7 @@ def toDecimal(con):
     else:
         declist = numlist
     for j in declist:
-        dec = chr(int(j))
+        dec = chr(int(j)) #sd
         charlist.append(dec)
     text = ''.join(charlist)
     print("\nDECODED TEXT: ", text)
