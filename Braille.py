@@ -63,7 +63,6 @@ def main():
         for n in dec:
             if n in alphabraille:
                 s += alphabet[alphabraille.index(n)]
-
         print(s)
         return
 
