@@ -107,7 +107,6 @@ def rotCalc(userStr):
     return output   
     
 
-    
 while True:
     encOrDec = input("Enter 1 to DECODE, OR anything else to quit: ")
     if encOrDec.isdigit() == False:
