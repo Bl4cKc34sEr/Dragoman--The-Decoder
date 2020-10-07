@@ -80,5 +80,5 @@ elif choice == 16:
     con = 16
     typ = "Hexadecimal"
 else:
-    print(">> INVALID CHOICE!")
+    print(">> INVALID CHOICE, Select correct options")
 toDecimal(con)
