@@ -68,5 +68,4 @@ def decodeAtbash(code):
     for l in code:
         solution += alphabet[25-alphabet.index(l)]
     return solution
-
 atbashPrompt()
