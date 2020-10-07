@@ -57,4 +57,5 @@ for i in a:
         j += 1
     if j == len(b):
         j = 0
+
 print ('The plain text: '+ c)
