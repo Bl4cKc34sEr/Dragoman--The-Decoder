@@ -128,7 +128,6 @@ def decode_dna( string ):
         pieces.append( mapping[piece] )
 
     return "".join(pieces)
-
-  
+   
 print (decode_dna(string))
 
