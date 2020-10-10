@@ -23,9 +23,9 @@ The Scripts included are :
 7. Caeser Cipher Decoder✂
 8. DNA Decoder🧬
 9. Morse Code Decoder💻
-10. Binary to Text 
-11. Hex to Text
-12. Octal to Text
+10. Binary-to-Text 
+11. Hex-to-Text
+12. Octal-to-Text
 13. Rot Cipher Decoder⭕
 14. Railfence Decoder
 15. Reverse Cipher◀
